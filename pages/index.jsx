@@ -1,10 +1,15 @@
+import Header from '../components /Header';
 
 export default function Home() {
   return (
     <div>
-      hello boston <i className="fa-solid fa-house"></i>
-<br />
-  <img src="/images/logo.jpg" alt="Alts" />
+      <header className="header container mt-5">
+        <Header></Header>
+      </header>
+
+      <main className="content"></main>
+
+      <footer className="footer"></footer>
     </div>
   );
 }
